@@ -9,7 +9,7 @@ const port = 8000;
 // Replace with your valid API key
 const apiKey = "AIzaSyBTdAgqRyaWCubG4IMqS_d6AquVI60t8UQ";
 
-app.use(cors());
+// app.use(cors());
 
 // Use cors middleware
 app.use(bodyParser.json());
