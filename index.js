@@ -9,11 +9,8 @@ const port = 8000;
 // Replace with your valid API key
 const apiKey = "AIzaSyBTdAgqRyaWCubG4IMqS_d6AquVI60t8UQ";
 
-app.use(
-  cors({
-    origin: "http://localhost:5173", // Frontend URL
-  })
-);
+app.use();
+
 // Use cors middleware
 app.use(bodyParser.json());
 
